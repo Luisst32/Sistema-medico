@@ -1,0 +1,54 @@
+
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+
+.forma{
+    width: 1110px;
+    height: 2px;
+    background: rgb(183, 255, 183);
+    
+
+}
+.a2{
+    top: 160px;
+    left: 750px;
+    
+
+
+    position: relative;
+
+    z-index: 1;
+}
+.a3{
+    top: 190px;
+    left: 830px;
+    
+
+
+    position: relative;
+
+    z-index: 1;
+
+}
+.imag{
+    top: 100px;
+    left: 120px;
+
+    position: absolute;
+    z-index: 0;
+
+}
+.boton{
+    top: 550px;
+    left: 1150px;
+    position: absolute;
+    z-index: 1;
+
+}
